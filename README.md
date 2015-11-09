@@ -7,5 +7,6 @@ The master branch contains current stable release.
 Branches:
 
 Master -> current stable
+    
     TrailerV2 -> current working
     TrailerV1 -> old
