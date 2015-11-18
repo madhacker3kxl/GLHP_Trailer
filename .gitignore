@@ -274,9 +274,11 @@ eagle.epf
 Ultiboard Exports/
 *.ewnet
 
+# Others
 */Visual Micro/
 */.vs/
 */__vm/
 
 /Temp/
 *.ms14 (Security copy)
+*bak
