@@ -1,17 +1,14 @@
-//Calibration of the DS18B20 Sensors
-//The program uses the fixed address to poll sensors every 3 seconds
-//The sensor information gets averaged 20 times and then displayed on the serial port
-//10C to 50C range in 10C increments. It gets compared to a calibrated temperature probe
+//
 
 #include <OneWire.h>
 #include <DallasTemperature.h>
-
-const uint8_t readings = 20;
+#include <SPI.h>
+#include "AD5422/AD5422.h"
 
 // Data wire is plugged into port 2 on the Arduino
 #define ONE_WIRE_BUS 2
 
-// Change the Precision to 12 bit
+// Change the precision to 12 bit
 #define TEMPERATURE_PRECISION 12
 
 // Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)

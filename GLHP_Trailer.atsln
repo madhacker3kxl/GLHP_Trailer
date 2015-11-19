@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "GLHP_Trailer", "GLHP_Trailer.cppproj", "{74C0A2D2-898D-496C-B71B-28C39DFB14ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74C0A2D2-898D-496C-B71B-28C39DFB14ED}.Debug|AVR.ActiveCfg = Debug|AVR
+		{74C0A2D2-898D-496C-B71B-28C39DFB14ED}.Debug|AVR.Build.0 = Debug|AVR
+		{74C0A2D2-898D-496C-B71B-28C39DFB14ED}.Release|AVR.ActiveCfg = Release|AVR
+		{74C0A2D2-898D-496C-B71B-28C39DFB14ED}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

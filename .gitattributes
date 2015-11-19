@@ -2,8 +2,8 @@
 * text=auto
 
 # Custom for Atmel Visual Studio
-*.atsln   text eol=crlf merge=union
-*.cppproj merge=union
+*.atsln   binary
+*.cppproj binary
 
 # Standard to msysgit
 *.doc	 diff=astextplain

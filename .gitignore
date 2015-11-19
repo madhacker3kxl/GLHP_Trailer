@@ -276,8 +276,10 @@ Ultiboard Exports/
 
 # Others
 */Visual Micro/
-*/.vs/
-*/__vm/
+*/.vs/*
+__vm/*
+
+
 
 /Temp/
 *.ms14 (Security copy)
